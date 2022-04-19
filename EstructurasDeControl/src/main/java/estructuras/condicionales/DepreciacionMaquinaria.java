@@ -30,7 +30,7 @@ public class DepreciacionMaquinaria {
         for(int i= 1 ; i<= anhios; i++){
             double sumaDigitos = cantidad * anhios;
             cantidad += (anhios/sumaDigitos)*costo;
-            System.out.println("La depreciacion Es de :" + cantidad);
+            System.out.println("La depreciacion Es de : " + cantidad);
         }
     }
 }
